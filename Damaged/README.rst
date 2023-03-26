@@ -17,9 +17,7 @@ behavior of the library is to detect the broken file and throw an
 exception.
 
 These files have been archived here to permit regression testing,
-ensuring that fu
-
-ture modifications to the library do not inadvertently
+ensuring that future modifications to the library do not inadvertently
 reintroduce a bug that previously existed. Testing generally requires
 use of an analysis tool such as the `LLVM sanitizer tool
 <https://github.com/google/sanitizers>`_ or `valgrind

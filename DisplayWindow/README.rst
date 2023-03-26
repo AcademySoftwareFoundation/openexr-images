@@ -12,23 +12,30 @@ crops and pads the images.  All files contain the same set of 400 by
 ratio differ between files.
 
 .. list-table::
-   
+   :align: left
+           
    * -
 
-     * t01.exr
+       * t01.exr
 
      - The display window and the data window are the same.  All pixels
        in the data window should be visible in the display window.
 
    * - 
 
-     * t02.exr
-     * t03.exr
-     * t04.exr
-     * t05.exr
-     * t06.exr
-     * t07.exr
-     * t08.exr
+       * t02.exr
+
+       * t03.exr
+
+       * t04.exr
+
+       * t05.exr
+
+       * t06.exr
+
+       * t07.exr
+
+       * t08.exr
 
      - The display window and the data window overlap, but they are
        not the same.  Portions of the data window that are outside the
@@ -38,10 +45,13 @@ ratio differ between files.
 
    * -  
 
-     * t09.exr
-     * t10.exr
-     * t11.exr
-     * t12.exr
+       * t09.exr
+
+       * t10.exr
+
+       * t11.exr
+
+       * t12.exr
 
      - The display window and the data window do not overlap.  The
        entire display window should be filled with the background
@@ -49,7 +59,7 @@ ratio differ between files.
 
    * -
 
-     * t13.exr
+       * t13.exr
 
      - The display window and the data window have only one pixel in
        common.  The data window's lower right pixel should be visible
@@ -57,7 +67,7 @@ ratio differ between files.
 
    * -
 
-     * t14.exr
+       * t14.exr
 
      - The display window and the data window have only one pixel in
        common.  The data window's upper left pixel should be visible in
@@ -65,7 +75,7 @@ ratio differ between files.
 
    * -
 
-     * t15.exr
+       * t15.exr
 
      - The display window and the data window are the same as in
        t07.exr, but the pixels have an aspect ratio (width divided by
@@ -73,12 +83,12 @@ ratio differ between files.
        display window and the data window should be stretched
        horizontally.
 
-    * -
+   * -
 
-      * t16.exr
+       * t16.exr
 
-      - The display window and the data window are the same as in
-        t07.exr, but the pixels have an aspect ratio of 0.667.  On a
-        screen with square pixels, both the display window and the
-        data window should be stretched vertically.
+     - The display window and the data window are the same as in
+       t07.exr, but the pixels have an aspect ratio of 0.667.  On a
+       screen with square pixels, both the display window and the
+       data window should be stretched vertically.
 

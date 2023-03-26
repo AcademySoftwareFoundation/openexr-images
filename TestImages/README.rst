@@ -11,6 +11,7 @@ behave when they encounter pixels with very small, very large or
 non-finite pixel values:
 
 .. list-table::
+   :align: left
 
    * - ``WideColorGamut.exr``
 
@@ -53,7 +54,7 @@ non-finite pixel values:
    * - ``BrightRingsNanInf.exr``
 
      - This image is the same as ``BrightRings.exr``, except for a few
-       pixels near the center, which contain NaNs and infitities.
+       pixels near the center, which contain NaNs and infinities.
 
    * - ``SquaresSwirls.exr``
 

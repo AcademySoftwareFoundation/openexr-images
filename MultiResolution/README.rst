@@ -13,13 +13,13 @@ Regular Images
 .. list-table::
    :align: left
            
-  * - Bonita.exr		
+   * - Bonita.exr		
+ 
+     - Point Bonita in the Marin Headlands, California (mip-map).
 
-    - Point Bonita in the Marin Headlands, California (mip-map).
+   * - Kapaa.exr
 
-  * - Kapaa.exr
-
-    - Near Kapa'a, Kaua'i, Hawai'i (rip-map).
+     - Near Kapa'a, Kaua'i, Hawai'i (rip-map).
 
 Environment Maps
 ================
@@ -27,26 +27,29 @@ Environment Maps
 .. list-table::
    :align: left
            
-  * -
+   * -
 
-    * KernerEnvCube.exr
-    * KernerEnvLatLong.exr
+       * KernerEnvCube.exr
 
-    - Parking lot on Kerner Blvd., San Rafael, California (mip-map, in
-      cube-face and latitude-longitude format).
+       * KernerEnvLatLong.exr
 
-  * -
-
-    * StageEnvCube.exr
-    * StageEnvLatLong.exr
-
-    - Stage with props, cameras and other equipment (mip-map, in
-      cube-face and latitude-longitude format).
+     - Parking lot on Kerner Blvd., San Rafael, California (mip-map, in
+       cube-face and latitude-longitude format).
 
    * -
 
-     * OrientationCube.exr
-     * OrientationLatLong.exr
+       * StageEnvCube.exr
+
+       * StageEnvLatLong.exr
+
+     - Stage with props, cameras and other equipment (mip-map, in
+       cube-face and latitude-longitude format).
+
+   * -
+
+       * OrientationCube.exr
+
+       * OrientationLatLong.exr
     
      - An environment map, in cube-face and in latitude-longitude
        format, that indicates the directions of the environment's x, y
@@ -54,8 +57,9 @@ Environment Maps
 
    * -
 
-     * WavyLinesCube.exr
-     * WavyLinesLatLong.exr
+       * WavyLinesCube.exr
+
+       * WavyLinesLatLong.exr
     
      - An environment map, in cube-face and in latitude-longitude
        format, that can be used to test how an application program,
@@ -97,8 +101,8 @@ Test Images
 
    * -
 
-     * PeriodicPattern.exr	
-     * MirrorPattern.exr	
+       * PeriodicPattern.exr	
+       * MirrorPattern.exr	
     
      - Mip-map images that tile seamlessly in "periodic" and "mirror"
        wrap mode respectively.  The images can be used to check if 3D
