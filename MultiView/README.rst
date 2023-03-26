@@ -5,50 +5,35 @@
 Multi-View Images
 #################
 
-This directory contains multi-view OpenEXR images with a number of
-formatting variations (scan lines vs. tiles, image channels, etc.).
-All images contain at least a left-eye and a right-eye view suitable
-for presentation on a stereo display.  The images have been prepared
-for viewing with a pixel density of approximately 100 pixels per inch;
-the width of the displayed images should be about 5 to 10 inches (12
-to 25 cm).
+Multi-view OpenEXR images with a number of formatting variations (scan
+lines vs. tiles, image channels, etc.).  All images contain at least a
+left-eye and a right-eye view suitable for presentation on a stereo
+display.  The images have been prepared for viewing with a pixel
+density of approximately 100 pixels per inch; the width of the
+displayed images should be about 5 to 10 inches (12 to 25 cm).
 
 .. list-table::
    :align: left
            
-   * - file name
-     - format
-     - channels
-     - number of views
-     - default view
+   * - ``Balls.exr``
 
-   * - Balls.exr
-     - scan lines
-     - R, G, B
-     - 2
-     - left
+     - scan lines; R, G, B channels; 2 views; default view is left
 
-   * - LosPadres.exr
-     - scan lines
-     - R, G, B
-     - 2
-     - right
+   * - ``LosPadres.exr``
 
-   * - Adjuster.exr
-     - scan lines
-     - R, G, B
-     - 3
-     - center
+     - scan lines; R, G, B channels; 2 views; default view is right
 
-   * - Fog.exr
-     - scan lines
-     - Y (luminance only)
-     - 2
-     - left
+   * - ``Adjuster.exr``
 
-   * - Impact.exr
-     - tiled mip-map
-     - R, G, B
-     - 2
-     - left
+     - scan lines; R, G, B channels; 3 views; default view is center
+
+
+   * - ``Fog.exr``
+
+     - scan lines; Y luminance channel only; 2 views; default view is left
+
+   * - ``Impact.exr``
+
+     - tiled mip-map;  R, G, B channels; 2 views; default view is left
+
 

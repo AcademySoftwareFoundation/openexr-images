@@ -5,7 +5,7 @@
 Multi-Resolution Images
 #######################
 
-This directory contains various multi-resolution OpenEXR images
+Various multi-resolution OpenEXR images.
 
 Regular Images
 ==============
@@ -13,66 +13,61 @@ Regular Images
 .. list-table::
    :align: left
            
-   * - Bonita.exr		
+   * - ``Bonita.exr``		
  
-     - Point Bonita in the Marin Headlands, California (mip-map).
+     - Point Bonita in the Marin Headlands, California (mip-map)
 
-   * - Kapaa.exr
+   * - ``Kapaa.exr``
 
-     - Near Kapa'a, Kaua'i, Hawai'i (rip-map).
+     - Near Kapa'a, Kaua'i, Hawai'i (rip-map)
 
-Environment Maps
-================
+Environment Map Images
+======================
 
 .. list-table::
    :align: left
            
-   * -
+   * - ``KernerEnvCube.exr``
+       
+     - Parking lot on Kerner Blvd., San Rafael, California (mip-map, in
+       cube-face format)
 
-       * KernerEnvCube.exr
-
-       * KernerEnvLatLong.exr
+   * - ``KernerEnvLatLong.exr``
 
      - Parking lot on Kerner Blvd., San Rafael, California (mip-map, in
-       cube-face and latitude-longitude format).
+       latitude-longitude format)
 
-   * -
-
-       * StageEnvCube.exr
-
-       * StageEnvLatLong.exr
+   * - ``StageEnvCube.exr``
 
      - Stage with props, cameras and other equipment (mip-map, in
-       cube-face and latitude-longitude format).
+       cube-face format)
 
-   * -
+   * - ``StageEnvLatLong.exr``
 
-       * OrientationCube.exr
+     - Stage with props, cameras and other equipment (mip-map, in
+       latitude-longitude format)
 
-       * OrientationLatLong.exr
+   * - ``OrientationCube.exr``
+
+     - An environment map, in cube-face format, that indicates the
+       directions of the environment's x, y and z axes.
+
+   * - ``OrientationLatLong.exr``
     
-     - An environment map, in cube-face and in latitude-longitude
-       format, that indicates the directions of the environment's x, y
-       and z axes.
+     - An environment map, in latitude-longitude format, that
+       indicates the directions of the environment's x, y and z axes.
 
-   * -
+   * - ``WavyLinesCube.exr``
 
-       * WavyLinesCube.exr
-
-       * WavyLinesLatLong.exr
-    
-     - An environment map, in cube-face and in latitude-longitude
-       format, that can be used to test how an application program,
-       for example, a 3D renderer, handles the seams of environment
-       maps.
+     - An environment map, in cube-face format, that can be used to
+       test how an application program, for example, a 3D renderer,
+       handles the seams of environment maps.
 
        The environment image contains multiple sets of wavy lines.
        Each set consists of three parallel lines of equal width.
        Parts of the middle line run along one of the map's seams,
-       crossing back and forth over the seam.  (In a cube-face map
-       seams occur along the edges of the six faces of the cube.  In a
-       latitude-longitude map, there is a seam along the meridian with
-       longitude +/-pi.)
+       crossing back and forth over the seam.  In a cube-face map,
+       seams occur along the edges of the six faces of the cube. 
 
        If the environment map is correctly projected onto a sphere,
        then the seams should be invisible, and all lines should appear
@@ -80,18 +75,39 @@ Environment Maps
        impossible or at least difficult to tell where the middle line
        in each set crosses one of the map's seams.
 
-       File ``WavyLinesSphere.exr`` shows what this environment map
-       should look like when has been correctly projected onto a
-       sphere.  (In this image the environment sphere is seen from the
-       outside, not from the inside).
+   * - ``WavyLinesLatLong.exr``
+    
+     - An environment map, in latitude-longitude format, that can be
+       used to test how an application program, for example, a 3D
+       renderer, handles the seams of environment maps.
 
-Test Images
-===========
+       The environment image contains multiple sets of wavy lines.
+       Each set consists of three parallel lines of equal width.
+       Parts of the middle line run along one of the map's seams,
+       crossing back and forth over the seam.  In a latitude-longitude
+       map, there is a seam along the meridian with longitude +/-pi.
+
+       If the environment map is correctly projected onto a sphere,
+       then the seams should be invisible, and all lines should appear
+       to have the same uniform width everywhere.  It should be
+       impossible or at least difficult to tell where the middle line
+       in each set crosses one of the map's seams.
+
+   * - ``WavyLinesSphere.exr``
+
+       This image shows what the ``WavyLinesCube.exr`` and
+       ``WavyLinesLatLong.exr`` environment map should look like when
+       has been correctly projected onto a sphere.  In this image the
+       environment sphere is seen from the outside, not from the
+       inside.
+
+Mip-Map Images
+==============
 
 .. list-table::
    :align: left
            
-   * - ColorCodedLevels.exr
+   * - ``ColorCodedLevels.exr``
     
      - A mip-map checkerboard image where each resolution level has a
        different color.  If this image is used to texture an object
@@ -99,12 +115,15 @@ Test Images
        resolution levels are accessed by the renderer as it projects
        the texture onto the object.
 
-   * -
+   * - ``PeriodicPattern.exr``	
 
-       * PeriodicPattern.exr	
-       * MirrorPattern.exr	
+     - A mip-map image that tiles seamlessly in "periodic" wrap mode.
+       The image can be used to check if 3D renderers correctly
+       implement this wrap mode.
+
+   * - ``MirrorPattern.exr``	
     
-     - Mip-map images that tile seamlessly in "periodic" and "mirror"
-       wrap mode respectively.  The images can be used to check if 3D
-       renderers correctly implement those wrap modes.
+     - Mip-map images that tile seamlessly in "mirror"
+       wrap mode.  The image can be used to check if 3D
+       renderers correctly implement this wrap modes.
 

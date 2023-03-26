@@ -2,13 +2,13 @@
   SPDX-License-Identifier: BSD-3-Clause
   Copyright Contributors to the OpenEXR Project.
 
-Test Images
-###########
+Unusual Pixel Images
+####################
 
-This directory contains a few OpenEXR files with unusual numbers in
-their pixels.  The files can be used to test how application programs
-behave when they encounter pixels with very small, very large or
-non-finite pixel values:
+A few OpenEXR files with unusual numbers in their pixels.  The files
+can be used to test how application programs behave when they
+encounter pixels with very small, very large or non-finite pixel
+values.
 
 .. list-table::
    :align: left
