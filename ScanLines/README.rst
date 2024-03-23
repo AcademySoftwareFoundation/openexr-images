@@ -27,6 +27,9 @@ Examples of scanline images.
 
      -
 
+   * - ``Carrots.exr``
+
+     - Stored with ACES2065-1 (AP0) chromaticities
 
    * - ``Cannon.exr``
 
